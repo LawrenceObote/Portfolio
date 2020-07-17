@@ -63,6 +63,9 @@ i {
   background-color: black;
   color: white;
 }
+.white{
+    color: white;
+}
 .intro {
   text-align: center;
   width: 40%;
@@ -86,11 +89,6 @@ i {
   font-size: 15px;
   margin: 0;
   padding: 0;
-}
-.fa-icon {
-  background-color: white;
-  margin-left: 5%;
-  padding: 5px;
 }
 
 .projects {
@@ -118,4 +116,23 @@ a:visited {
 
 .email {
     color: white; 
+}
+
+.parallax{
+height: 100vh;
+width: 100%;
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.fa-arrow-down {
+    color: white;
+    background-color: black;
+    display: block;
+    text-align: center;
+}
+.down-arrow{
+    height: 10vh;
 }
