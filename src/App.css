@@ -5,6 +5,7 @@ html {
 }
 body {
   font-family: 'Do Hyeon', sans-serif;
+  background-color: black;
 }
 .title {
   text-align: center;
@@ -22,14 +23,6 @@ body {
   grid-column-gap: 10px;
   margin: 0 auto;
   justify-items: center;
-}
-.left {
-  width: 100%;
-  position: inline-block;
-}
-.right {
-  width: 50%;
-  position: inline-block;
 }
 Col {
   margin: 0 auto;
@@ -50,7 +43,7 @@ Col {
   justify-content: space-between;
   align-items: center;
   width: 30%;
-  margin-left: 50%;
+  margin-left: 4%;
 }
 .link {
   color: white;
@@ -103,4 +96,26 @@ i {
 .projects {
   background-color: black;
   margin: 0 auto;
+  width: 80%;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: red;
+}
+
+.email {
+    color: white; 
 }

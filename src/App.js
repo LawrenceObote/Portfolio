@@ -9,26 +9,20 @@ import Navbar from './components/Navbar';
 
 console.log(process.env.REACT_APP_OPENGRAPH_API_KEY);
 function App() {
-  return (
-    <Router>
-      <div>
-        <Switch>
-          <Route path="/" exact component={'/'}>
-            <Navbar></Navbar>
-            <About></About>
-          </Route>
-          <Route path="/projects" exact component={'/projects'}>
-            <Navbar></Navbar>
-            <Project></Project>
-          </Route>
-          <Route path="/contact" exact component={'/contact'}>
-            <Navbar></Navbar>
-            <Contact></Contact>
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <div>
+                <Switch>
+                    <Route path="/" exact component={'/'}>
+                        <Navbar></Navbar>
+                        <About></About>
+                        <Project></Project>
+                        <Contact></Contact>
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
