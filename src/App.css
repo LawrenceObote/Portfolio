@@ -14,21 +14,32 @@ body {
 .thumbnail-div {
   width: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
+  display: block;
 }
+
+
 .thumbnail-pair {
-  display: grid;
-  grid-auto-flow: column;
-  grid-column-gap: 10px;
-  margin: 0 auto;
-  justify-items: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    width: 100%;
 }
-Col {
-  margin: 0 auto;
+
+.two-thumbnails {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
 }
+
+.col-md-6 {
+   margin-bottom: 50px; 
+}
+
+
 .thumbnail {
+    display: flex;
   margin: 0 auto;
+  align-items: center;
 }
 
 #nav {
@@ -76,19 +87,21 @@ i {
 }
 
 .bar {
+  display: flex;
+  margin: 0 auto;
   background-color: white;
   color: black;
-  margin: 0;
   padding: 0;
-  width: 200%;
   text-align: center;
   width: 400px;
 }
 
 .bar-text {
+  display: flex;
   font-size: 15px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  text-align: center;
 }
 
 .projects {
@@ -136,3 +149,9 @@ width: 100%;
 .down-arrow{
     height: 10vh;
 }
+.thumbnail-single{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
